@@ -4,13 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p{
+            font-size: 34px;
+        }
+    </style>
 </head>
 <body>
-    <h3>
+    <h3 id="top">
         Hello github
     </h3>
     <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi culpa neque fuga, tenetur distinctio quaerat, mollitia ipsa ab, quibusdam alias officiis delectus quam aliquam ipsum. Repellendus eaque quisquam aut.
+        <i>
+            Lorem, ipsum dolor sit amet consectetur
+        </i>
+         adipisicing elit. Voluptate modi culpa neque fuga, tenetur distinctio quaerat, mollitia ipsa ab, quibusdam alias officiis delectus quam aliquam ipsum. Repellendus eaque quisquam aut.
     </p>
-</body>
+    <p>
+        <!-- new verion -->
+        <em>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </em>
+        Quisquam iusto ipsa in tenetur molestiae, amet exercitationem corporis debitis, inventore iure animi beatae labore officiis reiciendis quae vel minima, eaque libero.
+    </p>
+    <strong>
+        <em>Test tag</em>
+    </strong>
+    <em>
+        Test 2
+    </em>
+    <p>
+        Block tag
+    </p>
+    <pre>
+        Test 
+        New line
+            new line 2
+    </pre>
+    <h3>
+        <!-- blue text -->
+        <span>Hello</span>
+        <!-- yellow text -->
+        <span>World</span>
+    </h3>
+    <h4>
+        H <sub>2</sub> 0 <sup>3</sup>
+    </h4>
+    <hr>
+    <a href="https://getbootstrap.com/docs/5.3/examples/">
+        Bootstrap page
+    </a>
+    <a target="_blank" href="https://getbootstrap.com/docs/5.3/examples/">
+        Bootstrap page 2
+    </a>
+    <hr>
+    <!-- <a href="http://127.0.0.2:5501/02/page.html" target="_blank">Local file page 2</a> -->
+    <!-- <a href="D:\Work\KievProg\fe-start-10-07\02\page.html" target="_blank">Local file page 2</a> -->
+     <a href="page.html" target="_blank">Second page</a>
+     <a href="../01/index.html" target="_blank">Lesson 1</a>
+     <a href="thirdpage/next.html" target="_blank">Next</a>
+
+    <hr>
+    <a  id="example" href="tel:+380611231234">Зателефонуйте нам +380611231234</a>
+    <a href="mailto:test@gmail.com">Пишіть нам на почту test@gmail.com</a>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita dolorem recusandae ipsam 
+    </p>
+    <a href="#top">Go top</a>
+    <a href="#example">Go to link example</a>
+    <!-- block -->
+     <div>
+        simple block
+     </div>
+     <div>
+        <!-- simple block -->
+     </div>
+     <!-- html5 -->
+      <header>
+        Head text
+      </header>
+      <section>
+        Section block
+      </section>
+      <main>
+        Main block
+      </main>
+      <article>
+        <h3>
+            titel
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, illum.
+        </p>
+      </article>
+      <nav>
+        Navigation
+      </nav>
+      <aside>
+        Aside
+      </aside>
+      <footer>
+        Last block + information
+      </footer>
+
+      <!-- header -->
+       <!-- <div>
+        <div>
+            <div>logo</div>
+            <div>search</div>
+            <div>social</div>
+        </div>
+       </div> -->
+       <header>
+        <div>
+            <div></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <form action=""></form>
+        </div>
+       </header>
+
+       <!-- <span>
+        <div>
+            Помилка
+        </div>
+       </span> -->
+       <!-- <a href="">
+        <div></div>
+       </a> -->
+       <ul>
+
+         <li>
+            First
+            <strong> Test</strong>
+         </li>
+         <li>
+            Number list
+            <ol>
+                <!-- <div></div> -->
+                <li>
+                    First
+                 </li>
+                 <li>
+                    Second
+                 </li>
+                 <li>
+                    Third
+                 </li>
+               </ol>
+         </li>
+         <li>
+            Third
+            <ul>
+                <li>A</li>
+                <li>B</li>
+            </ul>
+         </li>
+       </ul>
+       <ol  reversed>
+        <li>
+            First
+         </li>
+         <li>
+            Second
+         </li>
+         <li>
+            Third
+         </li>
+         <li>
+            First
+         </li>
+         <li>
+            Second
+         </li>
+         <li>
+            Last
+         </li>
+       </ol>
+       <!-- table -->
+        <table border="4" style="width: 100%;">
+            <!-- <h3></h3> -->
+            <thead>
+                <!-- <p></p> -->
+                <tr>
+                    <th>
+                        Company name
+                    </th>
+                    <th>
+                        Capital
+                    </th>
+                    <th>
+                        Country
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Microsoft</td>
+                    <td>100M</td>
+                    <td rowspan="2">U.S.A</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Apple</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>

@@ -1,0 +1,99 @@
+/* h2{
+    color: #fff;
+    background-color: rgb(155, 17, 17);
+    padding: 50px;
+} */
+/* Commetn */
+
+/* tag name */
+*{
+    /* text-decoration: underline; */
+}
+h2{
+    color: #fff;
+    background-color: rgb(155, 17, 17);
+    padding: 50px;
+}
+
+h4{
+
+    margin-bottom: 50px;
+}
+h5{
+    /* background-color: yellow;
+    text-align: center; */
+    margin-bottom: 40px;
+
+}
+h6{
+    /* background-color: yellow;
+    text-align: center; */
+    margin-bottom: 30px;
+}
+/* DRY don't repeat yourself */
+h2,h3,h4,h5,h6{
+    background-color: yellow;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    color: green;
+    background-color: black;
+}
+section div p{
+    background-color: blueviolet;
+    color: white;
+}
+p{
+    font-size: 34px;
+    color: rgb(13, 0, 128);
+    background-color: black;
+}
+/* section button{
+    background-color: green;
+}
+section button+button{
+    background-color: blue;
+} */
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+.green.big{
+    padding: 20px;  
+    font-size: 34px;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.big{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+ul li:last-child{
+    background-color: rgb(228, 10, 170);
+}
+ul li:first-child{
+    background-color: yellow;
+}
+ul li:nth-child(2){
+    background-color: gray;
+}
+ul li:nth-child(4){
+    background-color: blueviolet;
+}
+ul li:hover{
+    color: white;
+    background: black;
+}
+footer:empty{
+    background-color: red;
+    padding: 100px;
+}

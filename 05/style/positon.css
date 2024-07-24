@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    /* position: ; */
+    /* position: static; */
+
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    /* bottom: ; */
+    /* left: ; */
+    /* right: ; */
+    /* position: relative;
+    position: absolute; */
+    /* width: 100%; */
+    z-index: 10;
+
+}
+section{
+    width: 550px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+button{
+    background-color: red;
+    border:2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    position: fixed;
+    /* top: 850px;
+    left: 1650px; */
+    bottom: 50px;
+    right: 50px;
+}
+.abs{
+    /* width: 500px; */
+    padding: 10px;
+    /* height: 50px; */
+    background-color: blueviolet;
+    border:2px solid black;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    z-index: 2;
+}
+.abs.second{
+    top: 160px;
+    left: 380px;
+    background-color: rgb(102, 27, 173);
+    z-index: 1;
+}
+.relative{
+    background-color: green;
+    border:2px solid black;
+    padding: 20px;
+    position: relative;
+}
+.abs.top{
+    top: -50px;
+    left: -50px;
+}
+.relative.second{
+    z-index: 3;
+    top:150px;
+    left: 150px;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(10, 82, 10);
+    overflow: hidden;
+}
+.relative.second:hover .abs.top{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+/* h1::before{
+    content: '!!!!';
+    color: blueviolet;
+    font-size: 40px;
+}
+h1::after{
+    content: '$$$';
+    background-color: red;
+} */
+ h1{
+    text-align: center;
+ }
+h1::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: rgb(62, 44, 11);
+    /* position: absolute; */
+    position: relative;
+    top: -5px;
+    margin-right: 20px;
+
+}
+h1::after{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(62, 44, 11);
+    /* position: absolute; */
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+}
+
+h1:hover::after{
+    background-color: red;
+}

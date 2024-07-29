@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* background: red; */
+    background-color: blueviolet;
+    background-image: url('../shoe.png');
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: 430px; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-position:top left right bottom center; */
+    /* background-position: top 250px left 1400px; */
+    /* background-position: top 250px right 400px; */
+    /* background-position: bottom 250px right 400px; */
+    /* background-position: bottom 250px center; */
+    background-position:top center;
+    background-attachment: fixed;
+}
+p{
+    color: white;
+    font-size: 32px;
+    padding: 100px;
+    width: 250px;
+    margin: 0 auto;
+}
+.bg{
+    width: 450px;
+    min-height: 450px;
+    margin: 350px auto;
+    border: 2px solid white;
+    background-size: 450px;
+    background-image: url('../img/avatar.png'),url('../img/1.webp');
+    background-repeat: no-repeat;
+
+}
+.bird{
+    background-image: url('https://cdn.vectorstock.com/i/500p/14/06/flying-red-bird-game-sprites-vector-21861406.jpg');
+    height: 99px;
+    width: 102px;
+}
+.bird.fly{
+    background-position: top -117px left 0;
+}
+.bird.fly:hover{
+    background-position: top -398px left -421px;
+}
+.bird.more{
+    margin-left: 150px;
+    background-position: top -141px left -477px;
+}
+.bird.third{
+    margin-left: 350px;
+    background-position: top -398px left -421px;
+}

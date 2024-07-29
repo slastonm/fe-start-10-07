@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+main{
+    padding-top: 250px;
+    background-image: url('../img/bg.jpeg');
+    background-position: bottom center;
+    /* background-position: top center; */
+    background-position: top center;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+header, section{
+    padding: 150px;
+    /* background-color: yellow; */
+    margin-bottom: 250px;
+}
+header i{
+    font-size: 34px;
+    color: red;
+}
+header i:hover{
+    color:yellow;
+}
+p{
+    font-size: 40px;
+}

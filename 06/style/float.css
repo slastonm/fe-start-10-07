@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 1440px;
+    padding: 0 115px 0 156px;
+    margin: 0 auto;
+}
+.quote-column,
+.text-column{
+    display: inline-block;
+    vertical-align: top;
+}
+.quote-column.short{
+    width: 300px;
+}
+.quote-column.logn{
+    width: 400px;
+}
+.text-column{
+    width: 700px;
+}
+.text-column.short{
+    width: 600px;
+}
+.text-column.long{
+    width: 750px;
+}
+.decore-text{
+    border-radius: 20px;
+    background-color: lightcoral;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 28px;
+    padding-bottom: 8px;
+}
+.quote-column img{
+    width: 150px;
+}
+.quote-column{
+    text-align: center;
+}
+.quote-autor{
+    position: relative;
+    padding-left: 86px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.quote-autor img{
+    position: absolute;
+    width: 40px;
+    left: 15px;
+    top:-2px;
+}
+.float-example{
+    /* min-height: 350px; */
+    /* overflow: hidden; */
+}
+.float-example img{
+    float: right;
+    width: 370px;
+    position: relative;
+    right: -50px;
+    /* margin-left: 150px;
+    margin-bottom: 20px; */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+header{
+    background-color: orange;
+    padding: 50px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

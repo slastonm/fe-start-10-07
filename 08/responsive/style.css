@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: yellow;
+}
+/* @media (min-width:1600px){
+    body{
+        margin: 0;
+        font-size: 16px;
+        background-color: yellow;
+    }
+} */
+h1{
+    color: blue;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+/* @media screen and  (max-width:1400px) {
+    body{
+        background-color: rgb(56, 95, 239);
+    }
+    h1{
+        color: rgb(13, 162, 149);
+        font-size: 40px;
+        margin-left: 600px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+@media (max-width:1200px) {
+    body{
+        background-color: rgb(132, 56, 239);
+    }
+    h1{
+        color: rgb(229, 233, 19);
+        font-size: 40px;
+        margin-left: 400px;
+    }
+    p{
+        font-size: 14px;
+        color: white;
+    }
+}
+
+@media (max-width:800px) {
+    h1{
+        color: rgb(249, 249, 248);
+        font-size: 30px;
+        margin-left: 200px;
+    }
+    p{
+        color: rgb(182, 234, 11);
+    }
+} */
+/* @media (min-width:800px){
+    body{
+        background-color: rgb(7, 174, 105);
+    }
+    h1{
+        color: rgb(1, 4, 4);
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (min-width:1200px){
+    body{
+        background-color: rgb(7, 71, 174);
+    }
+    h1{
+        color: rgb(53, 223, 15);
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        color: white;
+    }
+} */
+h2{
+    display: none;
+    font-size: 40px;
+    text-align: center;
+    padding: 100px 0;
+}
+@media screen 
+    and (min-width:800px)
+    and (max-width: 1100px){
+        h1{
+            display: none;
+        }
+        p{
+            display: none;
+        }
+        /* body::after{
+            content: 'Open with mobile or PC';
+            font-size: 40px;
+            text-align: center;
+            display: inline-block;
+            padding: 100px 0;
+        } */
+        h2{
+            display: block;
+        }
+    }
+
+@media (400px<= width <=700px){
+    body{
+        background-color: brown;
+    }
+}
+
+@media print{
+    ul{
+        display: none;
+    }
+    h1{
+        color: black;
+        border: 4px solid black;
+    }
+}
+
+@media(max-aspect-ratio: 3/2){
+
+}
+@media(min-aspect-ratio: 19.5/6){
+
+}

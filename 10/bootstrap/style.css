@@ -1,0 +1,18 @@
+
+/* .container{
+    вже реалізовано
+    width: 1200px;
+    margin: 0 auto;
+} */
+ header .col-6{
+    margin-top: 150px;
+ }
+
+ .col-6.my-colum{
+    width: 75%;
+    /* width: 50%; */
+
+ }
+ .label-block{
+    background-color: pink;
+ }

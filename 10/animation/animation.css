@@ -1,0 +1,28 @@
+@keyframes move {
+    from {left: 0px;}
+    to {left: 1800px;}
+  }
+  .animatio>div {
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(54, 74, 11);
+    font-weight: bold;
+    position: relative;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  .linear {animation-timing-function: linear}
+  .ease {animation-timing-function: ease;}
+  .ease-in {animation-timing-function: ease-in;}
+  .ease-out {animation-timing-function: ease-out;}
+  .ease-in-out {animation-timing-function: ease-in-out;}
+  .custom{
+    animation-timing-function: cubic-bezier(.05,.37,1,.22);
+  }
+  h1{
+    padding: 50px;
+    text-align: center;
+  }

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+.nice-button{
+    transition: all 3s;
+}
+.nice-button:hover{
+
+}
+body{
+    padding: 250px;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 40px;
+    border:3px solid black;
+    /* transition: width 5s, color 3s; */
+    /* width: 200px;
+    height: 50px; */
+    opacity: 1;
+    transition: all 3s;
+
+}
+button:hover{
+    /* transition: all 3s; */
+    background-color: yellow;
+    color: black;
+    /* overflow: hidden;
+    opacity: 0; */
+}
+
+.rotate:hover{
+    /* transform: rotate(45deg); */
+    /* transform: rotate(145deg); */
+    /* transform: rotate(-90deg); */
+    rotate: 20deg;
+
+}
+.scale:hover{
+    /* 100%-120% */
+    /* transform: scale(0.7,0.7); */
+    /* padding: 40px 80px;
+    font-size: 40px; */
+    /* scale: 2; */
+    scale: 2 0.5;
+    /* flex-direction: ; */
+    /* justify-content: ; */
+    /* align-items: ; */
+    /* order: ; */
+}
+
+.translate:hover{
+    transform: translate(0px, 10px);
+}
+.skew:hover{
+    transform: skew(0deg, 110deg);
+}
+
+.super{
+    transform: rotate(45deg) scale(1.2, 0.7) translate(50px, -50px);
+}
+.super:hover{
+    transform: rotate(0deg) scale(1) translate(0px, 0px);
+}
+
+svg path{
+    fill: black;
+}
+.path-el{
+    fill: blue;
+    stroke: black;
+    stroke-width: 3px;
+}
